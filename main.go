@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"log"
-	"todo_app/config"
+	"todo_app/app/controllers"
 )
 
 func main() {
-	fmt.Println(config.Config.Port)
-	log.Println("test")
+	controllers.StartMainServer()
 }

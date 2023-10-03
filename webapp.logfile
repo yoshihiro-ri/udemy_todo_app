@@ -1,1 +1,21 @@
 2023/09/30 16:29:40 main.go:11: test
+2023/09/30 19:35:25 main.go:12: &{{{} {} 0} {webapp.sql 0xc00006e020} {{} {} 0} {0 0} [0xc00013e000] map[] 0 1 0xc00007c0c0 false map[0xc00013e000:map[0xc00013e000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000df3e0}
+2023/09/30 19:56:30 main.go:12: &{{{} {} 0} {webapp.sql 0xc00006e040} {{} {} 0} {0 0} [0xc00013a090] map[] 0 1 0xc00007c0c0 false map[0xc00013a090:map[0xc00013a090:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000e5d60}
+2023/09/30 19:56:30 users.go:29: near ")": syntax error
+2023/09/30 20:04:43 main.go:12: &{{{} {} 0} {webapp.sql 0xc0000ba020} {{} {} 0} {0 0} [0xc0000e2000] map[] 0 1 0xc00008e0c0 false map[0xc0000e2000:map[0xc0000e2000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000e5d60}
+2023/09/30 20:04:43 users.go:34: near ")": syntax error
+2023/09/30 20:05:20 main.go:12: &{{{} {} 0} {webapp.sql 0xc00006e040} {{} {} 0} {0 0} [0xc000138000] map[] 0 1 0xc00007c0c0 false map[0xc000138000:map[0xc000138000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000e5d60}
+2023/09/30 20:05:20 users.go:34: near ")": syntax error
+2023/09/30 20:06:09 main.go:12: &{{{} {} 0} {webapp.sql 0xc0000ba020} {{} {} 0} {0 0} [0xc0000e2000] map[] 0 1 0xc00008e0c0 false map[0xc0000e2000:map[0xc0000e2000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000e5d60}
+2023/09/30 20:06:09 users.go:34: near ")": syntax error
+2023/09/30 20:14:46 main.go:12: &{{{} {} 0} {webapp.sql 0xc00006e040} {{} {} 0} {0 0} [0xc000138000] map[] 0 1 0xc00007c0c0 false map[0xc000138000:map[0xc000138000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000e5d60}
+2023/09/30 20:14:46 users.go:34: near ")": syntax error
+2023/09/30 20:19:12 main.go:12: &{{{} {} 0} {webapp.sql 0xc00006e040} {{} {} 0} {0 0} [0xc000138000] map[] 0 1 0xc00007c0c0 false map[0xc000138000:map[0xc000138000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x1000e5d60}
+2023/09/30 20:36:05 users.go:57: not enough args to execute query: want 3 got 2
+2023/09/30 20:36:39 users.go:57: near "where": syntax error
+2023/09/30 20:39:36 users.go:57: near "where": syntax error
+2023/09/30 20:39:43 users.go:57: not enough args to execute query: want 3 got 2
+2023/09/30 20:40:22 users.go:57: not enough args to execute query: want 3 got 2
+2023/09/30 20:57:47 base.go:45: near "content": syntax error
+2023/10/03 09:46:29 base.go:63: no such column: create_at
+2023/10/03 10:14:50 base.go:63: no such table: todo
